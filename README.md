@@ -9,7 +9,7 @@ pip3 install -r requirements.txt
 ## Convert
 
 ```
-python3 main.py
+python3 main.py sample.pdf
 ```
 
 ## All rights about the PDF file used as sample is reserved:

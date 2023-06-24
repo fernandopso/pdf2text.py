@@ -1,6 +1,10 @@
+import sys
 from PyPDF2 import PdfReader
 
-reader = PdfReader("sample.pdf")
+args = sys.argv[1:]
+path_file = args[0]
+
+reader = PdfReader(path_file)
 
 for i in range(len(reader.pages)):
     print("Page:", i)
